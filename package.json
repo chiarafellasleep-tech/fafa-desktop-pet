@@ -1,6 +1,6 @@
 {
   "name": "fafa-desktop-pet",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "description": "A tiny desktop cat companion",
   "main": "main.js",
@@ -24,7 +24,14 @@
       "style.css",
       "fafa-photo.png",
       "fafa-paw-v2.png",
-      "fafa-recline.png"
+      "fafa-recline.png",
+      "fafa-reach.png",
+      "fafa-sleep.png",
+      "fafa-lounge.png",
+      "fafa-stretch.png",
+      "fafa-hide.png",
+      "fafa-lick.png",
+      "fafa-look.png"
     ],
     "directories": {
       "output": "release"

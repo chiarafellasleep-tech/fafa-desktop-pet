@@ -7,18 +7,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main id="pet" aria-label="Fafa the desktop cat">
+  <main id="pet" data-pose="sit" aria-label="Fafa the desktop cat">
     <div id="bubble" role="status" aria-live="polite">Hi, I'm Fafa! 🐾</div>
     <button id="close" title="Quit Fafa" aria-label="Quit Fafa">×</button>
     <div id="cat" role="button" tabindex="0" aria-label="Pet Fafa">
       <img class="pose pose-sit" src="fafa-photo.png" alt="Fafa, a fluffy cream-white cat" draggable="false">
       <img class="pose pose-paw" src="fafa-paw-v2.png" alt="" draggable="false">
       <img class="pose pose-recline" src="fafa-recline.png" alt="" draggable="false">
+      <img class="pose pose-lounge" src="fafa-lounge.png" alt="" draggable="false">
+      <img class="pose pose-reach" src="fafa-reach.png" alt="" draggable="false">
+      <img class="pose pose-sleep" src="fafa-sleep.png" alt="" draggable="false">
+      <img class="pose pose-stretch" src="fafa-stretch.png" alt="" draggable="false">
+      <img class="pose pose-hide" src="fafa-hide.png" alt="" draggable="false">
+      <img class="pose pose-lick" src="fafa-lick.png" alt="" draggable="false">
+      <img class="pose pose-look" src="fafa-look.png" alt="" draggable="false">
     </div>
     <div id="controls" aria-label="Fafa actions">
       <button id="feed" title="Give Fafa a treat">🍣 <span>Feed</span></button>
       <button id="play" title="Play with Fafa">🧶 <span>Play</span></button>
       <button id="sleep" title="Let Fafa nap">💤 <span>Nap</span></button>
+      <button id="stretch" title="Watch Fafa stretch">🐈 <span>Stretch</span></button>
+      <button id="hide" title="Fafa hides in her box">📦 <span>Hide</span></button>
     </div>
     <p id="hint">Drag Fafa to move · click to pet</p>
   </main>

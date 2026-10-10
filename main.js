@@ -6,10 +6,10 @@ let petWindow;
 function createPetWindow() {
   const display = screen.getPrimaryDisplay().workArea;
   petWindow = new BrowserWindow({
-    width: 260,
-    height: 310,
-    x: display.x + display.width - 300,
-    y: display.y + display.height - 350,
+    width: 300,
+    height: 350,
+    x: display.x + display.width - 340,
+    y: display.y + display.height - 390,
     frame: false,
     transparent: true,
     resizable: false,

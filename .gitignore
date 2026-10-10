@@ -1,3 +1,5 @@
 node_modules/
 release/
+release-preview/
+release-final/
 *.log

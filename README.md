@@ -1,6 +1,9 @@
 # Fafa Desktop Pet
 
-Fafa is a small, photo-based desktop cat for Windows. Drag her around the screen, click her to pet, or use **Feed**, **Play**, and **Nap**. Her sitting and reclining poses are based on photos of the real Fafa; the raised-paw pose was edited from her sitting cutout.
+Fafa is a small, photo-based desktop cat for Windows. Drag her around the screen, click her to pet, or use **Feed**, **Play**, **Nap**, **Stretch**, and **Hide**. Play alternates between two paw poses, Feed includes a little lip-lick, and Nap moves through a lounging pose before Fafa closes her eyes. Stretch and Hide use edited cutouts based on photos of the real Fafa. She also occasionally looks up or stretches on her own.
+
+Pet Fafa four times within seven seconds to see her looking-up pose and a cheeky response.
+Wake her from a nap to see her lounging pose and hear her opinion about getting up.
 
 ## Download
 
