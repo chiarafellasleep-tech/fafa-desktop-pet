@@ -9,6 +9,8 @@ Wake her from a nap to see her lounging pose and hear her opinion about getting 
 
 Get the latest portable Windows build from this repository's **Releases** page. Download `Fafa-Desktop-Pet-Windows.exe` and open it; no installation is needed. Use the × button above Fafa to quit. This early release is unsigned, so Windows may show an unrecognized-app warning.
 
+For Mac, the v0.2.0 release provides separate `.dmg` downloads for Apple Silicon (`arm64`) and Intel (`x64`). Open the appropriate disk image and drag Fafa Desktop Pet to Applications. This friend-test build is unsigned and unnotarized, so macOS may block its first launch. If you trust this download, open **System Settings → Privacy & Security** and choose **Open Anyway** after the first attempt. The × button above Fafa quits the app.
+
 ## Browser demo
 
 Open `index.html` locally to preview Fafa and try the controls. Window dragging and Quit work in the desktop app.
@@ -28,3 +30,4 @@ The portable executable is written to `release/`. This project uses Electron and
 ## Photos
 
 The Fafa images are personal photos and edited cutouts shared with this project. Please ask the owner before reusing the images outside this desktop pet.
+
