@@ -1,0 +1,36 @@
+{
+  "name": "fafa-desktop-pet",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A tiny desktop cat companion",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "check": "node --check main.js && node --check preload.js && node --check renderer.js",
+    "dist:win": "electron-builder --win portable --x64"
+  },
+  "devDependencies": {
+    "electron": "^39.0.0",
+    "electron-builder": "^26.0.0"
+  },
+  "build": {
+    "appId": "pet.fafa.desktop",
+    "productName": "Fafa Desktop Pet",
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "style.css",
+      "fafa-photo.png",
+      "fafa-paw-v2.png",
+      "fafa-recline.png"
+    ],
+    "directories": {
+      "output": "release"
+    },
+    "win": {
+      "target": "portable"
+    }
+  }
+}
